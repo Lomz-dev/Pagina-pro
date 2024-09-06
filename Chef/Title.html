@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+    <head>
+        <meta charset="UTF-8">
+        <title>Super podio XTreme</title>
+        <link rel="stylesheet" href="Chef.css">
+    </head>
+
+    <body>
+        <p id = "title">PÁGINA SUPER CHIDA</p>
+        <button class="UI" id="continue-button" onclick="confirmarRedireccion()">Continuar</button>
+        <script>
+            function confirmarRedireccion()
+            {
+                if (confirm('¿Estás seguro de que quieres continuar?.'))
+                {
+                    window.location.href = 'Results.html';
+                }
+            }
+        </script>
+
+        <div id="players">
+            <button class = "UI" id = "add-button">+</button>
+
+            <div class="container">
+            </div>
+        </div>
+
+        <script type="module" src="Players.js"></script>
+    </body>
+</html>

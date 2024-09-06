@@ -1,0 +1,79 @@
+body 
+{
+    background-color: saddlebrown;
+}
+
+#title
+{
+    background-color: rgba(31, 20, 3, 0.478);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: wheat;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.Player-template
+{
+    height: 175px;
+    width: 250px;
+    background-color: tomato;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    padding: 55px;
+}
+
+#player-name
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.195);
+    text-align: center;
+}
+
+.UI
+{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(142, 35, 60);
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.2s, opacity 0.25s;
+}
+
+.UI:hover
+{
+    opacity: 0.8;
+    background-color: rgb(125, 26, 69);
+    color: rgb(220, 217, 224);
+}
+
+.UI:active
+{
+    background: solid;
+    background-color: rgb(32, 2, 37);
+    color: rgb(166, 163, 174);
+}
+
+#continue-button
+{
+    width: 120px;
+}
+
+#add-button
+{
+    width: 36px;
+}
